@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/webparser.dir/main.cpp.o  -o webparser -Wl,-rpath,/home/rmolines/github/C-Web-Parser/lib lib/libcpr.a lib/libcurl.so -ldl -lpthread -lssl -lcrypto 
