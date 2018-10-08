@@ -16,10 +16,11 @@ endif (CURL_FOUND)
 add_subdirectory(cpr)
 
 include_directories(${CPR_INCLUDE_DIRS})
-include_directories(${CURL_INCLUDE_DIR})
+
+link_directories(/usr/local/lib)
 
 target_link_libraries(webparser ${CPR_LIBRARIES})
-target_link_libraries(webparser ${CURL_LIBRARIES})
+target_link_libraries(webparser gumbo) 
 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

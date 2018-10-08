@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/webparser.dir/main.cpp.o  -o webparser -lcurl lib/libcpr.a -lcurl 
+/usr/bin/c++    -rdynamic CMakeFiles/webparser.dir/main.cpp.o  -o webparser -lcurl lib/libcpr.a -lgumbo -lcurl 

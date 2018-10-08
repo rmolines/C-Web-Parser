@@ -13,6 +13,8 @@ iostream
 -
 cpr/cpr.h
 -
+gumbo.h
+/home/rmolines/github/C-Web-Parser/gumbo.h
 
 cpr/include/cpr/api.h
 functional
