@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rmolines/github/C-Web-Parser/cpr/include -I/home/rmolines/github/C-Web-Parser/cpr/opt/curl/include -I/home/rmolines/github/C-Web-Parser/cpr/opt/curl/include/curl 
+CXX_INCLUDES = -I/usr/include/x86_64-linux-gnu -I/home/rmolines/github/C-Web-Parser/cpr/include 
 

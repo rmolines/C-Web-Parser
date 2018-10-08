@@ -24,10 +24,7 @@ BUILD_CURL_EXE:BOOL=OFF
 BUILD_SHARED_LIBS:BOOL=OFF
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=ON
-
-//Path to a program.
-BZRCOMMAND:FILEPATH=BZRCOMMAND-NOTFOUND
+BUILD_TESTING:BOOL=OFF
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -224,13 +221,6 @@ CMAKE_USE_OPENSSL:BOOL=ON
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Path to the coverage program that CTest uses for performing coverage
-// inspection
-COVERAGE_COMMAND:FILEPATH=/usr/bin/gcov
-
-//Extra command line flags to pass to the coverage tool
-COVERAGE_EXTRA_FLAGS:STRING=-l
-
 //Enable to build Debian packages
 CPACK_BINARY_DEB:BOOL=OFF
 
@@ -281,12 +271,6 @@ CPACK_SOURCE_ZIP:BOOL=OFF
 
 //Set to ON to disable use of signals in libcurl.
 CPR_CURL_NOSIGNAL:BOOL=OFF
-
-//How many times to retry timed-out CTest submissions.
-CTEST_SUBMIT_RETRY_COUNT:STRING=3
-
-//How long to wait between timed-out CTest submissions.
-CTEST_SUBMIT_RETRY_DELAY:STRING=5
 
 //Value Computed by CMake
 CURL_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/curl
@@ -353,6 +337,9 @@ CURL_DISABLE_VERBOSE_STRINGS:BOOL=OFF
 // that aren't officially external).
 CURL_HIDDEN_SYMBOLS:BOOL=ON
 
+//Path to a file.
+CURL_INCLUDE_DIR:PATH=/usr/include/x86_64-linux-gnu
+
 //Value Computed by CMake
 CURL_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/curl
 
@@ -364,15 +351,6 @@ CURL_WERROR:BOOL=OFF
 
 //Set to ON to enable building curl with zlib support.
 CURL_ZLIB:BOOL=ON
-
-//Path to a program.
-CVSCOMMAND:FILEPATH=CVSCOMMAND-NOTFOUND
-
-//Options passed to the cvs update command.
-CVS_UPDATE_OPTIONS:STRING=-d -A -P
-
-//Maximum time allowed before CTest will kill the test.
-DART_TESTING_TIMEOUT:STRING=1500
 
 //Set to ON to enable c-ares support
 ENABLE_ARES:BOOL=OFF
@@ -398,12 +376,6 @@ ENABLE_UNIX_SOCKETS:BOOL=ON
 //Set to ON to generate coverage reports.
 GENERATE_COVERAGE:BOOL=OFF
 
-//Path to a program.
-GITCOMMAND:FILEPATH=/usr/bin/git
-
-//Path to a program.
-HGCOMMAND:FILEPATH=HGCOMMAND-NOTFOUND
-
 //disables all protocols except HTTP (This overrides all CURL_DISABLE_*
 // options)
 HTTP_ONLY:BOOL=OFF
@@ -414,15 +386,6 @@ LIBSSH2_INCLUDE_DIR:PATH=LIBSSH2_INCLUDE_DIR-NOTFOUND
 //Path to a library.
 LIBSSH2_LIBRARY:FILEPATH=LIBSSH2_LIBRARY-NOTFOUND
 
-//Command to build the project
-MAKECOMMAND:STRING=/usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
-
-//Path to the memory checking command, used for memory error detection.
-MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
-
-//File that contains suppressions for the memory checker
-MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
-
 //Path to a program.
 NROFF:FILEPATH=/usr/bin/nroff
 
@@ -432,20 +395,8 @@ OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 //Path to a file.
 OPENSSL_INCLUDE_DIR:PATH=/usr/include
 
-//No help, variable specified on the command line.
-OPENSSL_LIBRARIES:UNINITIALIZED=/usr/local/ssl/lib
-
-//No help, variable specified on the command line.
-OPENSSL_ROOT_DIR:UNINITIALIZED=/usr/local/ssl
-
 //Path to a library.
 OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
-
-//Test OPT-Wstrict-aliasing=3
-OPT-Wstrict-aliasing:UNINITIALIZED=3:INTERNAL=1
-
-//Path to a program.
-P4COMMAND:FILEPATH=P4COMMAND-NOTFOUND
 
 //Path to a program.
 PERL_EXECUTABLE:FILEPATH=/usr/bin/perl
@@ -461,22 +412,6 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
 //Path to a file.
 RANDOM_FILE:FILEPATH=/dev/urandom
-
-//Path to scp command, used by CTest for submitting results to
-// a Dart server
-SCPCOMMAND:FILEPATH=/usr/bin/scp
-
-//Name of the computer/site where compile is being run
-SITE:STRING=ubuntu
-
-//Path to the SLURM sbatch executable
-SLURM_SBATCH_COMMAND:FILEPATH=SLURM_SBATCH_COMMAND-NOTFOUND
-
-//Path to the SLURM srun executable
-SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
-
-//Path to a program.
-SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 
 //Use Nghttp2 library
 USE_NGHTTP2:BOOL=OFF
@@ -502,7 +437,7 @@ ZLIB_LIBRARY_RELEASE:FILEPATH=ZLIB_LIBRARY_RELEASE-NOTFOUND
 cpr_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr
 
 //Dependencies for the target
-cpr_LIB_DEPENDS:STATIC=general;libcurl;
+cpr_LIB_DEPENDS:STATIC=general;-lcurl;
 
 //Value Computed by CMake
 cpr_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr
@@ -532,9 +467,6 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
-//Dependencies for target
-hostname_LIB_DEPENDS:STATIC=
-
 //Dependencies for the target
 libcurl_LIB_DEPENDS:STATIC=general;dl;general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libssl.so;general;/usr/lib/x86_64-linux-gnu/libcrypto.so;
 
@@ -561,8 +493,6 @@ webparser_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser
 # INTERNAL cache entries
 ########################
 
-//ADVANCED property for variable: BZRCOMMAND
-BZRCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -579,8 +509,6 @@ CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
-//ADVANCED property for variable: CMAKE_CTEST_COMMAND
-CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
@@ -667,7 +595,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -718,10 +646,6 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 COMPILER_SUPPORTS_CXX0X:INTERNAL=1
 //Test COMPILER_SUPPORTS_CXX11
 COMPILER_SUPPORTS_CXX11:INTERNAL=1
-//ADVANCED property for variable: COVERAGE_COMMAND
-COVERAGE_COMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: COVERAGE_EXTRA_FLAGS
-COVERAGE_EXTRA_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CPACK_BINARY_DEB
 CPACK_BINARY_DEB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CPACK_BINARY_FREEBSD
@@ -756,10 +680,6 @@ CPACK_SOURCE_TZ-ADVANCED:INTERNAL=1
 CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
 CPR_INCLUDE_DIRS:INTERNAL=/home/rmolines/github/C-Web-Parser/cpr/include
 CPR_LIBRARIES:INTERNAL=cpr
-//ADVANCED property for variable: CTEST_SUBMIT_RETRY_COUNT
-CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CTEST_SUBMIT_RETRY_DELAY
-CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //Flag to track whether this is the first time running CMake or
 // if CMake has been configured before
 CURL_CONFIG_HAS_BEEN_RUN_BEFORE:INTERNAL=1
@@ -801,20 +721,18 @@ CURL_DISABLE_VERBOSE_STRINGS-ADVANCED:INTERNAL=1
 CURL_FOUND:INTERNAL=TRUE
 //ADVANCED property for variable: CURL_HIDDEN_SYMBOLS
 CURL_HIDDEN_SYMBOLS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CURL_INCLUDE_DIR
+CURL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Location of curl include files
 CURL_INCLUDE_DIRS:INTERNAL=/home/rmolines/github/C-Web-Parser/cpr/opt/curl/include;/home/rmolines/github/C-Web-Parser/cpr/opt/curl/include/curl
 //Location of libcurl
 CURL_LIBRARIES:INTERNAL=libcurl
 //CHECK_TYPE_SIZE: sizeof(socklen_t)
 CURL_SIZEOF_CURL_SOCKLEN_T:INTERNAL=4
-//ADVANCED property for variable: CVSCOMMAND
-CVSCOMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CVS_UPDATE_OPTIONS
-CVS_UPDATE_OPTIONS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: DART_TESTING_TIMEOUT
-DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ENABLE_IPV6
 ENABLE_IPV6-ADVANCED:INTERNAL=1
+//Details about finding CURL
+FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[-lcurl][/usr/include/x86_64-linux-gnu][v7.58.0()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][v1.1.0g()]
 //Details about finding Perl
@@ -823,8 +741,6 @@ FIND_PACKAGE_MESSAGE_DETAILS_Perl:INTERNAL=[/usr/bin/perl][v5.26.1()]
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.15()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-//ADVANCED property for variable: GITCOMMAND
-GITCOMMAND-ADVANCED:INTERNAL=1
 //Location of both gtest libraries
 GTEST_BOTH_LIBRARIES:INTERNAL=gtest;gtest_main
 //Set if libgtest was found or built
@@ -1235,20 +1151,12 @@ HAVE_UTIME_H:INTERNAL=1
 HAVE_X509_H:INTERNAL=
 //Have symbol _strtoi64
 HAVE__STRTOI64:INTERNAL=
-//ADVANCED property for variable: HGCOMMAND
-HGCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: HTTP_ONLY
 HTTP_ONLY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LIBSSH2_INCLUDE_DIR
 LIBSSH2_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LIBSSH2_LIBRARY
 LIBSSH2_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MAKECOMMAND
-MAKECOMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MEMORYCHECK_COMMAND
-MEMORYCHECK_COMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MEMORYCHECK_SUPPRESSIONS_FILE
-MEMORYCHECK_SUPPRESSIONS_FILE-ADVANCED:INTERNAL=1
 //Set if libmongoose was found or built
 MONGOOSE_FOUND:INTERNAL=TRUE
 //Location of mongoose include files
@@ -1261,8 +1169,6 @@ NOT_NEED_LIBNSL:INTERNAL=1
 OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_INCLUDE_DIR
 OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENSSL_LIBRARIES
-OPENSSL_LIBRARIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_SSL_LIBRARY
 OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
 //Test OPT-W
@@ -1331,8 +1237,6 @@ OPT-Wvla:INTERNAL=1
 OPT-Wwrite-strings:INTERNAL=1
 //Test OPT-pedantic
 OPT-pedantic:INTERNAL=1
-//ADVANCED property for variable: P4COMMAND
-P4COMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PERL_EXECUTABLE
 PERL_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
@@ -1343,10 +1247,6 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 RANDOM_FILE-ADVANCED:INTERNAL=1
 //Curl test 
 RETSIGTYPE_TEST:INTERNAL=1
-//ADVANCED property for variable: SCPCOMMAND
-SCPCOMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: SITE
-SITE-ADVANCED:INTERNAL=1
 //CHECK_TYPE_SIZE: sizeof(curl_off_t)
 SIZEOF_CURL_OFF_T:INTERNAL=8
 //CHECK_TYPE_SIZE: sizeof(int)
@@ -1373,14 +1273,8 @@ SIZEOF_STRUCT_SOCKADDR_STORAGE:INTERNAL=128
 SIZEOF_TIME_T:INTERNAL=8
 //CHECK_TYPE_SIZE: __int64 unknown
 SIZEOF___INT64:INTERNAL=
-//ADVANCED property for variable: SLURM_SBATCH_COMMAND
-SLURM_SBATCH_COMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: SLURM_SRUN_COMMAND
-SLURM_SRUN_COMMAND-ADVANCED:INTERNAL=1
 //Curl test 
 STDC_HEADERS:INTERNAL=1
-//ADVANCED property for variable: SVNCOMMAND
-SVNCOMMAND-ADVANCED:INTERNAL=1
 //Curl test 
 TIME_WITH_SYS_TIME:INTERNAL=1
 //Test USE_UNIX_SOCKETS
