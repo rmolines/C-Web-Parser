@@ -90,7 +90,7 @@ webparser_EXTERNAL_OBJECTS =
 
 webparser: CMakeFiles/webparser.dir/main.cpp.o
 webparser: CMakeFiles/webparser.dir/build.make
-webparser: lib/libcpr.a
+webparser: lib/libcpr-d.a
 webparser: CMakeFiles/webparser.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable webparser"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webparser.dir/link.txt --verbose=$(VERBOSE)

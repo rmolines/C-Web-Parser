@@ -16,7 +16,10 @@ static void search_for_links(GumboNode* node) {
   GumboAttribute* href;
   if (node->v.element.tag == GUMBO_TAG_A &&
       (href = gumbo_get_attribute(&node->v.element.attributes, "href"))) {
-    std::cout << href->value << std::endl;
+    
+    if (href->value[25] == 'p'){
+      std::cout << href->value << std::endl;
+    }
   }
 
   GumboVector* children = &node->v.element.children;
@@ -32,15 +35,15 @@ static void find_email(GumboNode* node)
     GumboAttribute *vAttribute;
 		if (node->v.element.tag == GUMBO_TAG_DIV && 
         (vAttribute = gumbo_get_attribute(&node->v.element.attributes, "id"))) {
-      
-      if (strcmp(vAttribute->value, "BlocoConteudo")){
-        // search_for_links(node);
-        GumboVector* children = &node->v.element.children;
 
-        for (unsigned int i = 0; i < children->length; ++i)
-        {
-          cout << children->data[i] << endl;
+      // cout << vAttribute->value << endl << strcmp(vAttribute->value, "BlocoConteudo") << endl;
+
+      if (strcmp(vAttribute->value, "BlocoConteudo") == 0){
+        GumboVector* children = &node->v.element.children;
+        for (unsigned int i = 0; i < children->length; ++i) {
+          search_for_links(static_cast<GumboNode*>(children->data[i]));
         }
+        
   
       }
 
