@@ -15,6 +15,12 @@ cpr/cpr.h
 -
 gumbo.h
 /home/rmolines/github/C-Web-Parser/gumbo.h
+vector
+-
+string
+-
+algorithm
+-
 
 cpr/include/cpr/api.h
 functional

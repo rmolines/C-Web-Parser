@@ -14397,3 +14397,19 @@ make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeT
 
 Source file was:
 int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc30c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc30c.dir/build.make CMakeFiles/cmTC_dc30c.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc30c.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_dc30c.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_dc30c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc30c.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_dc30c.dir/src.c.o  -o cmTC_dc30c 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }

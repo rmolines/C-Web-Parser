@@ -430,13 +430,13 @@ USE_SYSTEM_CURL:BOOL=OFF
 USE_SYSTEM_GTEST:BOOL=OFF
 
 //Path to a file.
-ZLIB_INCLUDE_DIR:PATH=ZLIB_INCLUDE_DIR-NOTFOUND
+ZLIB_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
 ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-ZLIB_LIBRARY_RELEASE:FILEPATH=ZLIB_LIBRARY_RELEASE-NOTFOUND
+ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libz.so
 
 //Value Computed by CMake
 cpr_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr
@@ -473,7 +473,7 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Dependencies for the target
-libcurl_LIB_DEPENDS:STATIC=general;dl;general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libssl.so;general;/usr/lib/x86_64-linux-gnu/libcrypto.so;
+libcurl_LIB_DEPENDS:STATIC=general;dl;general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libssl.so;general;/usr/lib/x86_64-linux-gnu/libcrypto.so;general;/usr/lib/x86_64-linux-gnu/libz.so;
 
 //Value Computed by CMake
 mongoose_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/mongoose
