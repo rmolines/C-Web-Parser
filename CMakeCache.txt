@@ -383,6 +383,12 @@ GENERATE_COVERAGE:BOOL=OFF
 HTTP_ONLY:BOOL=OFF
 
 //Path to a file.
+JSON_INCLUDE_DIR:PATH=JSON_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+JSON_LIBRARY:FILEPATH=JSON_LIBRARY-NOTFOUND
+
+//Path to a file.
 LIBSSH2_INCLUDE_DIR:PATH=LIBSSH2_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
@@ -483,6 +489,9 @@ mongoose_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 mongoose_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/mongoose
+
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=nlohmann_json_DIR-NOTFOUND
 
 //Dependencies for the target
 test_server_LIB_DEPENDS:STATIC=general;mongoose;general;-lpthread;
@@ -742,6 +751,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[-lcurl][/usr/include/x86_64-linux-gn
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][v1.1.0g()]
 //Details about finding Perl
 FIND_PACKAGE_MESSAGE_DETAILS_Perl:INTERNAL=[/usr/bin/perl][v5.26.1()]
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.15()]
 //Details about finding Threads
@@ -1158,6 +1169,40 @@ HAVE_X509_H:INTERNAL=
 HAVE__STRTOI64:INTERNAL=
 //ADVANCED property for variable: HTTP_ONLY
 HTTP_ONLY-ADVANCED:INTERNAL=1
+JSONCPP_CFLAGS:INTERNAL=-I/usr/local/include
+JSONCPP_CFLAGS_I:INTERNAL=
+JSONCPP_CFLAGS_OTHER:INTERNAL=
+JSONCPP_FOUND:INTERNAL=1
+JSONCPP_INCLUDEDIR:INTERNAL=/usr/local/include
+JSONCPP_INCLUDE_DIRS:INTERNAL=/usr/local/include
+JSONCPP_LDFLAGS:INTERNAL=-L/usr/local/lib/x86_64-linux-gnu;-ljsoncpp
+JSONCPP_LDFLAGS_OTHER:INTERNAL=
+JSONCPP_LIBDIR:INTERNAL=/usr/local/lib/x86_64-linux-gnu
+JSONCPP_LIBRARIES:INTERNAL=jsoncpp
+JSONCPP_LIBRARY_DIRS:INTERNAL=/usr/local/lib/x86_64-linux-gnu
+JSONCPP_LIBS:INTERNAL=
+JSONCPP_LIBS_L:INTERNAL=
+JSONCPP_LIBS_OTHER:INTERNAL=
+JSONCPP_LIBS_PATHS:INTERNAL=
+JSONCPP_PREFIX:INTERNAL=/usr/local
+JSONCPP_STATIC_CFLAGS:INTERNAL=-I/usr/local/include
+JSONCPP_STATIC_CFLAGS_I:INTERNAL=
+JSONCPP_STATIC_CFLAGS_OTHER:INTERNAL=
+JSONCPP_STATIC_INCLUDE_DIRS:INTERNAL=/usr/local/include
+JSONCPP_STATIC_LDFLAGS:INTERNAL=-L/usr/local/lib/x86_64-linux-gnu;-ljsoncpp
+JSONCPP_STATIC_LDFLAGS_OTHER:INTERNAL=
+JSONCPP_STATIC_LIBDIR:INTERNAL=
+JSONCPP_STATIC_LIBRARIES:INTERNAL=jsoncpp
+JSONCPP_STATIC_LIBRARY_DIRS:INTERNAL=/usr/local/lib/x86_64-linux-gnu
+JSONCPP_STATIC_LIBS:INTERNAL=
+JSONCPP_STATIC_LIBS_L:INTERNAL=
+JSONCPP_STATIC_LIBS_OTHER:INTERNAL=
+JSONCPP_STATIC_LIBS_PATHS:INTERNAL=
+JSONCPP_VERSION:INTERNAL=1.8.4
+JSONCPP_jsoncpp_INCLUDEDIR:INTERNAL=
+JSONCPP_jsoncpp_LIBDIR:INTERNAL=
+JSONCPP_jsoncpp_PREFIX:INTERNAL=
+JSONCPP_jsoncpp_VERSION:INTERNAL=
 //ADVANCED property for variable: LIBSSH2_INCLUDE_DIR
 LIBSSH2_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LIBSSH2_LIBRARY
@@ -1324,7 +1369,9 @@ _OPENSSL_openssl_INCLUDEDIR:INTERNAL=
 _OPENSSL_openssl_LIBDIR:INTERNAL=
 _OPENSSL_openssl_PREFIX:INTERNAL=
 _OPENSSL_openssl_VERSION:INTERNAL=
+__pkg_config_arguments_JSONCPP:INTERNAL=jsoncpp
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
+__pkg_config_checked_JSONCPP:INTERNAL=1
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //Arguments for recv
 curl_cv_func_recv_args:INTERNAL=int,void *,size_t,int,ssize_t
@@ -1338,5 +1385,5 @@ curl_cv_func_send_test:INTERNAL=1
 curl_cv_recv:INTERNAL=1
 //Test curl_cv_send
 curl_cv_send:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
+prefix_result:INTERNAL=/usr/local/lib/x86_64-linux-gnu
 
