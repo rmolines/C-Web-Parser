@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rmolines/github/C-Web-Parser/main.cpp" "/home/rmolines/github/C-Web-Parser/CMakeFiles/webparser.dir/main.cpp.o"
+  "/home/rmolines/github/C-Web-Parser/main_seq.cpp" "/home/rmolines/github/C-Web-Parser/CMakeFiles/webparser.dir/main_seq.cpp.o"
+  "/home/rmolines/github/C-Web-Parser/semaphore.cpp" "/home/rmolines/github/C-Web-Parser/CMakeFiles/webparser.dir/semaphore.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,6 +13,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/x86_64-linux-gnu"
   "cpr/include"
+  "/usr/local/include"
   )
 
 # Targets to which this target links.

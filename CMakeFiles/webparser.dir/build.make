@@ -57,42 +57,68 @@ include CMakeFiles/webparser.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/webparser.dir/flags.make
 
-CMakeFiles/webparser.dir/main.cpp.o: CMakeFiles/webparser.dir/flags.make
-CMakeFiles/webparser.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/webparser.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webparser.dir/main.cpp.o -c /home/rmolines/github/C-Web-Parser/main.cpp
+CMakeFiles/webparser.dir/main_seq.cpp.o: CMakeFiles/webparser.dir/flags.make
+CMakeFiles/webparser.dir/main_seq.cpp.o: main_seq.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/webparser.dir/main_seq.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webparser.dir/main_seq.cpp.o -c /home/rmolines/github/C-Web-Parser/main_seq.cpp
 
-CMakeFiles/webparser.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webparser.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmolines/github/C-Web-Parser/main.cpp > CMakeFiles/webparser.dir/main.cpp.i
+CMakeFiles/webparser.dir/main_seq.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webparser.dir/main_seq.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmolines/github/C-Web-Parser/main_seq.cpp > CMakeFiles/webparser.dir/main_seq.cpp.i
 
-CMakeFiles/webparser.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webparser.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmolines/github/C-Web-Parser/main.cpp -o CMakeFiles/webparser.dir/main.cpp.s
+CMakeFiles/webparser.dir/main_seq.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webparser.dir/main_seq.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmolines/github/C-Web-Parser/main_seq.cpp -o CMakeFiles/webparser.dir/main_seq.cpp.s
 
-CMakeFiles/webparser.dir/main.cpp.o.requires:
+CMakeFiles/webparser.dir/main_seq.cpp.o.requires:
 
-.PHONY : CMakeFiles/webparser.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/webparser.dir/main_seq.cpp.o.requires
 
-CMakeFiles/webparser.dir/main.cpp.o.provides: CMakeFiles/webparser.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/webparser.dir/main.cpp.o.provides
+CMakeFiles/webparser.dir/main_seq.cpp.o.provides: CMakeFiles/webparser.dir/main_seq.cpp.o.requires
+	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/main_seq.cpp.o.provides.build
+.PHONY : CMakeFiles/webparser.dir/main_seq.cpp.o.provides
 
-CMakeFiles/webparser.dir/main.cpp.o.provides.build: CMakeFiles/webparser.dir/main.cpp.o
+CMakeFiles/webparser.dir/main_seq.cpp.o.provides.build: CMakeFiles/webparser.dir/main_seq.cpp.o
+
+
+CMakeFiles/webparser.dir/semaphore.cpp.o: CMakeFiles/webparser.dir/flags.make
+CMakeFiles/webparser.dir/semaphore.cpp.o: semaphore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/webparser.dir/semaphore.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webparser.dir/semaphore.cpp.o -c /home/rmolines/github/C-Web-Parser/semaphore.cpp
+
+CMakeFiles/webparser.dir/semaphore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webparser.dir/semaphore.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmolines/github/C-Web-Parser/semaphore.cpp > CMakeFiles/webparser.dir/semaphore.cpp.i
+
+CMakeFiles/webparser.dir/semaphore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webparser.dir/semaphore.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmolines/github/C-Web-Parser/semaphore.cpp -o CMakeFiles/webparser.dir/semaphore.cpp.s
+
+CMakeFiles/webparser.dir/semaphore.cpp.o.requires:
+
+.PHONY : CMakeFiles/webparser.dir/semaphore.cpp.o.requires
+
+CMakeFiles/webparser.dir/semaphore.cpp.o.provides: CMakeFiles/webparser.dir/semaphore.cpp.o.requires
+	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/semaphore.cpp.o.provides.build
+.PHONY : CMakeFiles/webparser.dir/semaphore.cpp.o.provides
+
+CMakeFiles/webparser.dir/semaphore.cpp.o.provides.build: CMakeFiles/webparser.dir/semaphore.cpp.o
 
 
 # Object files for target webparser
 webparser_OBJECTS = \
-"CMakeFiles/webparser.dir/main.cpp.o"
+"CMakeFiles/webparser.dir/main_seq.cpp.o" \
+"CMakeFiles/webparser.dir/semaphore.cpp.o"
 
 # External object files for target webparser
 webparser_EXTERNAL_OBJECTS =
 
-webparser: CMakeFiles/webparser.dir/main.cpp.o
+webparser: CMakeFiles/webparser.dir/main_seq.cpp.o
+webparser: CMakeFiles/webparser.dir/semaphore.cpp.o
 webparser: CMakeFiles/webparser.dir/build.make
 webparser: lib/libcpr-d.a
 webparser: CMakeFiles/webparser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable webparser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable webparser"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webparser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,7 +126,8 @@ CMakeFiles/webparser.dir/build: webparser
 
 .PHONY : CMakeFiles/webparser.dir/build
 
-CMakeFiles/webparser.dir/requires: CMakeFiles/webparser.dir/main.cpp.o.requires
+CMakeFiles/webparser.dir/requires: CMakeFiles/webparser.dir/main_seq.cpp.o.requires
+CMakeFiles/webparser.dir/requires: CMakeFiles/webparser.dir/semaphore.cpp.o.requires
 
 .PHONY : CMakeFiles/webparser.dir/requires
 

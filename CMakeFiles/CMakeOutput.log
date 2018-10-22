@@ -14607,3 +14607,1375 @@ make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeT
 
 Source file was:
 int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3cd16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cd16.dir/build.make CMakeFiles/cmTC_3cd16.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3cd16.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_3cd16.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_3cd16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cd16.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_3cd16.dir/src.c.o  -o cmTC_3cd16 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80a2a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80a2a.dir/build.make CMakeFiles/cmTC_80a2a.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80a2a.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_80a2a.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_80a2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80a2a.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_80a2a.dir/src.c.o  -o cmTC_80a2a 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f8bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f8bd.dir/build.make CMakeFiles/cmTC_8f8bd.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f8bd.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_8f8bd.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_8f8bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f8bd.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_8f8bd.dir/src.c.o  -o cmTC_8f8bd 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cc8a/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5cc8a.dir/build.make CMakeFiles/cmTC_5cc8a.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cc8a.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_5cc8a.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_5cc8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cc8a.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_5cc8a.dir/src.c.o  -o cmTC_5cc8a 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37fb5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37fb5.dir/build.make CMakeFiles/cmTC_37fb5.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37fb5.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_37fb5.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_37fb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37fb5.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_37fb5.dir/src.c.o  -o cmTC_37fb5 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec5cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec5cb.dir/build.make CMakeFiles/cmTC_ec5cb.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec5cb.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_ec5cb.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_ec5cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec5cb.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_ec5cb.dir/src.c.o  -o cmTC_ec5cb 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_666e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_666e4.dir/build.make CMakeFiles/cmTC_666e4.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_666e4.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_666e4.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_666e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_666e4.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_666e4.dir/src.c.o  -o cmTC_666e4 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_feaf4/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_feaf4.dir/build.make CMakeFiles/cmTC_feaf4.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_feaf4.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_feaf4.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_feaf4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feaf4.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_feaf4.dir/src.c.o  -o cmTC_feaf4 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11736/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11736.dir/build.make CMakeFiles/cmTC_11736.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11736.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_11736.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_11736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11736.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_11736.dir/src.c.o  -o cmTC_11736 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f959/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f959.dir/build.make CMakeFiles/cmTC_7f959.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f959.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_7f959.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_7f959
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f959.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_7f959.dir/src.c.o  -o cmTC_7f959 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2abc2/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2abc2.dir/build.make CMakeFiles/cmTC_2abc2.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2abc2.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_2abc2.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_2abc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2abc2.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_2abc2.dir/src.c.o  -o cmTC_2abc2 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5f71/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5f71.dir/build.make CMakeFiles/cmTC_c5f71.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5f71.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_c5f71.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_c5f71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5f71.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_c5f71.dir/src.c.o  -o cmTC_c5f71 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_970be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_970be.dir/build.make CMakeFiles/cmTC_970be.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_970be.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_970be.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_970be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_970be.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_970be.dir/src.c.o  -o cmTC_970be 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_517fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_517fc.dir/build.make CMakeFiles/cmTC_517fc.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_517fc.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_517fc.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_517fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_517fc.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_517fc.dir/src.c.o  -o cmTC_517fc 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bee2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bee2.dir/build.make CMakeFiles/cmTC_7bee2.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bee2.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_7bee2.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_7bee2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bee2.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_7bee2.dir/src.c.o  -o cmTC_7bee2 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fbc0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fbc0.dir/build.make CMakeFiles/cmTC_1fbc0.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fbc0.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_1fbc0.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_1fbc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fbc0.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_1fbc0.dir/src.c.o  -o cmTC_1fbc0 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17f6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17f6d.dir/build.make CMakeFiles/cmTC_17f6d.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17f6d.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_17f6d.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_17f6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17f6d.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_17f6d.dir/src.c.o  -o cmTC_17f6d 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ee2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ee2e.dir/build.make CMakeFiles/cmTC_6ee2e.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ee2e.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_6ee2e.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_6ee2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ee2e.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_6ee2e.dir/src.c.o  -o cmTC_6ee2e 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4358b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4358b.dir/build.make CMakeFiles/cmTC_4358b.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4358b.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_4358b.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_4358b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4358b.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_4358b.dir/src.c.o  -o cmTC_4358b 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24f9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24f9a.dir/build.make CMakeFiles/cmTC_24f9a.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24f9a.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_24f9a.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_24f9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24f9a.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_24f9a.dir/src.c.o  -o cmTC_24f9a 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c76f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c76f9.dir/build.make CMakeFiles/cmTC_c76f9.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c76f9.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_c76f9.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_c76f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c76f9.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_c76f9.dir/src.c.o  -o cmTC_c76f9 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9571b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9571b.dir/build.make CMakeFiles/cmTC_9571b.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9571b.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_9571b.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_9571b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9571b.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_9571b.dir/src.c.o  -o cmTC_9571b 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35374/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_35374.dir/build.make CMakeFiles/cmTC_35374.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35374.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_35374.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_35374
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35374.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_35374.dir/src.c.o  -o cmTC_35374 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bde3f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bde3f.dir/build.make CMakeFiles/cmTC_bde3f.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bde3f.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_bde3f.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_bde3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bde3f.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_bde3f.dir/src.c.o  -o cmTC_bde3f 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b260/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8b260.dir/build.make CMakeFiles/cmTC_8b260.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b260.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_8b260.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_8b260
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b260.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_8b260.dir/src.c.o  -o cmTC_8b260 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35ff9/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_35ff9.dir/build.make CMakeFiles/cmTC_35ff9.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35ff9.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_35ff9.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_35ff9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35ff9.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_35ff9.dir/src.c.o  -o cmTC_35ff9 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33c40/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_33c40.dir/build.make CMakeFiles/cmTC_33c40.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33c40.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_33c40.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_33c40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33c40.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_33c40.dir/src.c.o  -o cmTC_33c40 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ac6c/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1ac6c.dir/build.make CMakeFiles/cmTC_1ac6c.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ac6c.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_1ac6c.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_1ac6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ac6c.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_1ac6c.dir/src.c.o  -o cmTC_1ac6c 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee69b/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ee69b.dir/build.make CMakeFiles/cmTC_ee69b.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee69b.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_ee69b.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_ee69b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee69b.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_ee69b.dir/src.c.o  -o cmTC_ee69b 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e90d/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9e90d.dir/build.make CMakeFiles/cmTC_9e90d.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e90d.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_9e90d.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_9e90d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e90d.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_9e90d.dir/src.c.o  -o cmTC_9e90d 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4429b/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4429b.dir/build.make CMakeFiles/cmTC_4429b.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4429b.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_4429b.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_4429b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4429b.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_4429b.dir/src.c.o  -o cmTC_4429b 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e4b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e4b9.dir/build.make CMakeFiles/cmTC_8e4b9.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e4b9.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_8e4b9.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_8e4b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e4b9.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_8e4b9.dir/src.c.o  -o cmTC_8e4b9 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6d9d/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e6d9d.dir/build.make CMakeFiles/cmTC_e6d9d.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6d9d.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_e6d9d.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_e6d9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6d9d.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_e6d9d.dir/src.c.o  -o cmTC_e6d9d 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c87f/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8c87f.dir/build.make CMakeFiles/cmTC_8c87f.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c87f.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_8c87f.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_8c87f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c87f.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_8c87f.dir/src.c.o  -o cmTC_8c87f 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4080/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d4080.dir/build.make CMakeFiles/cmTC_d4080.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4080.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_d4080.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_d4080
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4080.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_d4080.dir/src.c.o  -o cmTC_d4080 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df4f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df4f2.dir/build.make CMakeFiles/cmTC_df4f2.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df4f2.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_df4f2.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_df4f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df4f2.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_df4f2.dir/src.c.o  -o cmTC_df4f2 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8738/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8738.dir/build.make CMakeFiles/cmTC_a8738.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8738.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_a8738.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_a8738
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8738.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_a8738.dir/src.c.o  -o cmTC_a8738 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f6c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f6c7.dir/build.make CMakeFiles/cmTC_0f6c7.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f6c7.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_0f6c7.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_0f6c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f6c7.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_0f6c7.dir/src.c.o  -o cmTC_0f6c7 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cc0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7cc0a.dir/build.make CMakeFiles/cmTC_7cc0a.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cc0a.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_7cc0a.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_7cc0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cc0a.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_7cc0a.dir/src.c.o  -o cmTC_7cc0a 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04e6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04e6e.dir/build.make CMakeFiles/cmTC_04e6e.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04e6e.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_04e6e.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_04e6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e6e.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_04e6e.dir/src.c.o  -o cmTC_04e6e 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5789c/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5789c.dir/build.make CMakeFiles/cmTC_5789c.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5789c.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_5789c.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_5789c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5789c.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_5789c.dir/src.c.o  -o cmTC_5789c 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8587/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8587.dir/build.make CMakeFiles/cmTC_b8587.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8587.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_b8587.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_b8587
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8587.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_b8587.dir/src.c.o  -o cmTC_b8587 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e699d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e699d.dir/build.make CMakeFiles/cmTC_e699d.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e699d.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_e699d.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_e699d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e699d.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_e699d.dir/src.c.o  -o cmTC_e699d 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aed34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aed34.dir/build.make CMakeFiles/cmTC_aed34.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aed34.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_aed34.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_aed34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aed34.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_aed34.dir/src.c.o  -o cmTC_aed34 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15dbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15dbc.dir/build.make CMakeFiles/cmTC_15dbc.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15dbc.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_15dbc.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_15dbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15dbc.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_15dbc.dir/src.c.o  -o cmTC_15dbc 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_639aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_639aa.dir/build.make CMakeFiles/cmTC_639aa.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_639aa.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_639aa.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_639aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_639aa.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_639aa.dir/src.c.o  -o cmTC_639aa 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6de70/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6de70.dir/build.make CMakeFiles/cmTC_6de70.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6de70.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_6de70.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_6de70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6de70.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_6de70.dir/src.c.o  -o cmTC_6de70 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d853f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d853f.dir/build.make CMakeFiles/cmTC_d853f.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d853f.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_d853f.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_d853f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d853f.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_d853f.dir/src.c.o  -o cmTC_d853f 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63d03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63d03.dir/build.make CMakeFiles/cmTC_63d03.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63d03.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_63d03.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_63d03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63d03.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_63d03.dir/src.c.o  -o cmTC_63d03 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f259f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f259f.dir/build.make CMakeFiles/cmTC_f259f.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f259f.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_f259f.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_f259f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f259f.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_f259f.dir/src.c.o  -o cmTC_f259f 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0323e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0323e.dir/build.make CMakeFiles/cmTC_0323e.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0323e.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_0323e.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_0323e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0323e.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_0323e.dir/src.c.o  -o cmTC_0323e 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0bbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0bbf.dir/build.make CMakeFiles/cmTC_b0bbf.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0bbf.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_b0bbf.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_b0bbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0bbf.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_b0bbf.dir/src.c.o  -o cmTC_b0bbf 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c7c9/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8c7c9.dir/build.make CMakeFiles/cmTC_8c7c9.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c7c9.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_8c7c9.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_8c7c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c7c9.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_8c7c9.dir/src.c.o  -o cmTC_8c7c9 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f72e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f72e6.dir/build.make CMakeFiles/cmTC_f72e6.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f72e6.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_f72e6.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_f72e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f72e6.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_f72e6.dir/src.c.o  -o cmTC_f72e6 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_320a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_320a4.dir/build.make CMakeFiles/cmTC_320a4.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_320a4.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_320a4.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_320a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_320a4.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_320a4.dir/src.c.o  -o cmTC_320a4 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26a7b/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_26a7b.dir/build.make CMakeFiles/cmTC_26a7b.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26a7b.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_26a7b.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_26a7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26a7b.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_26a7b.dir/src.c.o  -o cmTC_26a7b 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c472c/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c472c.dir/build.make CMakeFiles/cmTC_c472c.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c472c.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_c472c.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_c472c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c472c.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_c472c.dir/src.c.o  -o cmTC_c472c 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80e6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80e6c.dir/build.make CMakeFiles/cmTC_80e6c.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80e6c.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_80e6c.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_80e6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80e6c.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_80e6c.dir/src.c.o  -o cmTC_80e6c 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35d84/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35d84.dir/build.make CMakeFiles/cmTC_35d84.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35d84.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_35d84.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_35d84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35d84.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_35d84.dir/src.c.o  -o cmTC_35d84 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_576f5/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_576f5.dir/build.make CMakeFiles/cmTC_576f5.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_576f5.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_576f5.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_576f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_576f5.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_576f5.dir/src.c.o  -o cmTC_576f5 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9763a/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9763a.dir/build.make CMakeFiles/cmTC_9763a.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9763a.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_9763a.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_9763a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9763a.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_9763a.dir/src.c.o  -o cmTC_9763a 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f709/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f709.dir/build.make CMakeFiles/cmTC_9f709.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f709.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_9f709.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_9f709
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f709.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_9f709.dir/src.c.o  -o cmTC_9f709 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fc4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fc4a.dir/build.make CMakeFiles/cmTC_1fc4a.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fc4a.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_1fc4a.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_1fc4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fc4a.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_1fc4a.dir/src.c.o  -o cmTC_1fc4a 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d38f5/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d38f5.dir/build.make CMakeFiles/cmTC_d38f5.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d38f5.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_d38f5.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_d38f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d38f5.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_d38f5.dir/src.c.o  -o cmTC_d38f5 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b13a5/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b13a5.dir/build.make CMakeFiles/cmTC_b13a5.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b13a5.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_b13a5.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_b13a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b13a5.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_b13a5.dir/src.c.o  -o cmTC_b13a5 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_369e6/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_369e6.dir/build.make CMakeFiles/cmTC_369e6.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_369e6.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_369e6.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_369e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_369e6.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_369e6.dir/src.c.o  -o cmTC_369e6 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d6c2/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2d6c2.dir/build.make CMakeFiles/cmTC_2d6c2.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d6c2.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_2d6c2.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_2d6c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d6c2.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_2d6c2.dir/src.c.o  -o cmTC_2d6c2 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70e77/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_70e77.dir/build.make CMakeFiles/cmTC_70e77.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70e77.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_70e77.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_70e77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70e77.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_70e77.dir/src.c.o  -o cmTC_70e77 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2553/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2553.dir/build.make CMakeFiles/cmTC_a2553.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2553.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_a2553.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_a2553
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2553.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_a2553.dir/src.c.o  -o cmTC_a2553 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e192/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e192.dir/build.make CMakeFiles/cmTC_5e192.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e192.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_5e192.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_5e192
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e192.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_5e192.dir/src.c.o  -o cmTC_5e192 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01648/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01648.dir/build.make CMakeFiles/cmTC_01648.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01648.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_01648.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_01648
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01648.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_01648.dir/src.c.o  -o cmTC_01648 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba9c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba9c1.dir/build.make CMakeFiles/cmTC_ba9c1.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba9c1.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_ba9c1.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_ba9c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba9c1.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_ba9c1.dir/src.c.o  -o cmTC_ba9c1 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbb58/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbb58.dir/build.make CMakeFiles/cmTC_dbb58.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbb58.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_dbb58.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_dbb58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbb58.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_dbb58.dir/src.c.o  -o cmTC_dbb58 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b518b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b518b.dir/build.make CMakeFiles/cmTC_b518b.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b518b.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_b518b.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_b518b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b518b.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_b518b.dir/src.c.o  -o cmTC_b518b 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e914/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4e914.dir/build.make CMakeFiles/cmTC_4e914.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e914.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_4e914.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_4e914
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e914.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_4e914.dir/src.c.o  -o cmTC_4e914 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b551/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9b551.dir/build.make CMakeFiles/cmTC_9b551.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b551.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_9b551.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_9b551
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b551.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_9b551.dir/src.c.o  -o cmTC_9b551 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e858f/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e858f.dir/build.make CMakeFiles/cmTC_e858f.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e858f.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_e858f.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_e858f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e858f.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_e858f.dir/src.c.o  -o cmTC_e858f 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ad1f/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8ad1f.dir/build.make CMakeFiles/cmTC_8ad1f.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ad1f.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_8ad1f.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_8ad1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ad1f.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_8ad1f.dir/src.c.o  -o cmTC_8ad1f 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da660/fast"
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_da660.dir/build.make CMakeFiles/cmTC_da660.dir/build
+make[2]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da660.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_da660.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_da660
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da660.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_da660.dir/src.c.o  -o cmTC_da660 
+make[2]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a20e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a20e.dir/build.make CMakeFiles/cmTC_2a20e.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a20e.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_2a20e.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_2a20e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a20e.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_2a20e.dir/src.c.o  -o cmTC_2a20e 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b96d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b96d1.dir/build.make CMakeFiles/cmTC_b96d1.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b96d1.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_b96d1.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_b96d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b96d1.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_b96d1.dir/src.c.o  -o cmTC_b96d1 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6a12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6a12.dir/build.make CMakeFiles/cmTC_b6a12.dir/build
+make[1]: Entering directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6a12.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_b6a12.dir/src.c.o   -c /home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_b6a12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6a12.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_b6a12.dir/src.c.o  -o cmTC_b6a12 
+make[1]: Leaving directory '/home/rmolines/github/C-Web-Parser/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }

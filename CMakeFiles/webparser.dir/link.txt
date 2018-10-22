@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/webparser.dir/main.cpp.o  -o webparser -lcurl lib/libcpr-d.a -lgumbo -lcurl 
+/usr/bin/c++   -O2 -pg -std=c++11 -pthread -g  -rdynamic CMakeFiles/webparser.dir/main_seq.cpp.o CMakeFiles/webparser.dir/semaphore.cpp.o  -o webparser -lcurl -lgumbo lib/libcpr-d.a -lcurl 

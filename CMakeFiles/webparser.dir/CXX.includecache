@@ -284,7 +284,7 @@ vector
 utility
 -
 
-/home/rmolines/github/C-Web-Parser/main.cpp
+/home/rmolines/github/C-Web-Parser/main_seq.cpp
 string
 -
 iostream
@@ -301,6 +301,36 @@ algorithm
 -
 json.hpp
 /home/rmolines/github/C-Web-Parser/json.hpp
+chrono
+-
+fstream
+-
+
+/home/rmolines/github/C-Web-Parser/semaphore.cpp
+semaphore.h
+/home/rmolines/github/C-Web-Parser/semaphore.h
+
+/home/rmolines/github/C-Web-Parser/semaphore.h
+iostream
+-
+thread
+-
+condition_variable
+-
+chrono
+-
+mutex
+-
+
+/usr/local/include/gumbo.h
+stdbool.h
+-
+stddef.h
+-
+tag_enum.h
+/usr/local/include/tag_enum.h
+
+/usr/local/include/tag_enum.h
 
 cpr/include/cpr/api.h
 functional

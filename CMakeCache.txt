@@ -424,6 +424,9 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 //Path to a file.
 RANDOM_FILE:FILEPATH=/dev/urandom
 
+//The directory containing a CMake configuration file for Thread.
+Thread_DIR:PATH=Thread_DIR-NOTFOUND
+
 //Use Nghttp2 library
 USE_NGHTTP2:BOOL=OFF
 
@@ -444,6 +447,9 @@ ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libz.so
 
+//No help, variable specified on the command line.
+ZORBA_WITH_DEBUGGER:UNINITIALIZED=OFF
+
 //Value Computed by CMake
 cpr_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr
 
@@ -457,7 +463,7 @@ cpr_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr
 gtest_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/googletest
 
 //Dependencies for the target
-gtest_LIB_DEPENDS:STATIC=general;-lpthread;
+gtest_LIB_DEPENDS:STATIC=general;-pthread;
 
 //Value Computed by CMake
 gtest_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/googletest
@@ -476,10 +482,10 @@ gtest_disable_pthreads:BOOL=OFF
 gtest_force_shared_crt:BOOL=OFF
 
 //Dependencies for the target
-gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
+gtest_main_LIB_DEPENDS:STATIC=general;-pthread;general;gtest;
 
 //Dependencies for the target
-libcurl_LIB_DEPENDS:STATIC=general;dl;general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libssl.so;general;/usr/lib/x86_64-linux-gnu/libcrypto.so;general;/usr/lib/x86_64-linux-gnu/libz.so;
+libcurl_LIB_DEPENDS:STATIC=general;dl;general;-pthread;general;/usr/lib/x86_64-linux-gnu/libssl.so;general;/usr/lib/x86_64-linux-gnu/libcrypto.so;general;/usr/lib/x86_64-linux-gnu/libz.so;
 
 //Value Computed by CMake
 mongoose_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/mongoose
@@ -491,10 +497,10 @@ mongoose_LIB_DEPENDS:STATIC=
 mongoose_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/mongoose
 
 //The directory containing a CMake configuration file for nlohmann_json.
-nlohmann_json_DIR:PATH=nlohmann_json_DIR-NOTFOUND
+nlohmann_json_DIR:PATH=/usr/local/lib/cmake/nlohmann_json
 
 //Dependencies for the target
-test_server_LIB_DEPENDS:STATIC=general;mongoose;general;-lpthread;
+test_server_LIB_DEPENDS:STATIC=general;mongoose;general;-pthread;
 
 //Value Computed by CMake
 webparser_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser
@@ -757,6 +763,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.15()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding nlohmann_json
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.3.0(3.2.0)]
 //Location of both gtest libraries
 GTEST_BOTH_LIBRARIES:INTERNAL=gtest;gtest_main
 //Set if libgtest was found or built
@@ -1325,6 +1333,8 @@ SIZEOF_TIME_T:INTERNAL=8
 SIZEOF___INT64:INTERNAL=
 //Curl test 
 STDC_HEADERS:INTERNAL=1
+//Result of TRY_COMPILE
+THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE
 //Curl test 
 TIME_WITH_SYS_TIME:INTERNAL=1
 //Test USE_UNIX_SOCKETS

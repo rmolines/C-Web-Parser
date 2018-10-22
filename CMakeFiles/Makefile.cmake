@@ -37,6 +37,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "cpr/opt/googletest/cmake/internal_utils.cmake"
   "cpr/opt/mongoose/CMakeLists.txt"
   "cpr/test/CMakeLists.txt"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -113,6 +116,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/parallel_webparser.dir/DependInfo.cmake"
   "CMakeFiles/webparser.dir/DependInfo.cmake"
   "cpr/opt/curl/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "cpr/opt/curl/docs/libcurl/CMakeFiles/html.dir/DependInfo.cmake"

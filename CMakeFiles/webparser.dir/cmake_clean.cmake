@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/webparser.dir/main.cpp.o"
+  "CMakeFiles/webparser.dir/main_seq.cpp.o"
+  "CMakeFiles/webparser.dir/semaphore.cpp.o"
   "webparser.pdb"
   "webparser"
 )

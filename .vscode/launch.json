@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/webparser",
+            "program": "${workspaceFolder}/parallel_webparser",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
