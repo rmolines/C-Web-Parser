@@ -3,7 +3,7 @@
 Projeto para a matéria de supercomputação 2018.2/Insper.
 
 ## Installation
-cmake . && make
+jupyter notebook report.ipynb
 
 ### Requirements
 * Linux
