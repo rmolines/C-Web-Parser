@@ -16,3 +16,9 @@ jupyter notebook report.ipynb
 * json for modern c++
 * gumbo-parse
 
+### Sites aceitos
+
+Por enquanto, o único site aceito é o site da Kabum (www.kabum.com.br), mais especificamente os links das páginas de categorias.
+
+![alt text](./ss.png)
+
