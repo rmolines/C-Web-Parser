@@ -1,6 +1,6 @@
 # C Web Parser ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-Projeot para a matéria de supercomputação 2018.2/Insper.
+Projeto para a matéria de supercomputação 2018.2/Insper.
 
 ## Installation
 cmake . && make
