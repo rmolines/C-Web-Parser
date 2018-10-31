@@ -56,17 +56,17 @@ CMAKE_BINARY_DIR = /home/rmolines/github/C-Web-Parser
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
@@ -80,39 +80,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
@@ -123,6 +90,18 @@ package: preinstall
 package/fast: package
 
 .PHONY : package/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # Special rule for the target package_source
 package_source:
@@ -135,6 +114,17 @@ package_source/fast: package_source
 
 .PHONY : package_source/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -145,6 +135,16 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -179,30 +179,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named parallel_webparser
+# Target rules for targets named mpi_webparser
 
 # Build rule for target.
-parallel_webparser: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 parallel_webparser
-.PHONY : parallel_webparser
+mpi_webparser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mpi_webparser
+.PHONY : mpi_webparser
 
 # fast build rule for target.
-parallel_webparser/fast:
-	$(MAKE) -f CMakeFiles/parallel_webparser.dir/build.make CMakeFiles/parallel_webparser.dir/build
-.PHONY : parallel_webparser/fast
-
-#=============================================================================
-# Target rules for targets named webparser
-
-# Build rule for target.
-webparser: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 webparser
-.PHONY : webparser
-
-# fast build rule for target.
-webparser/fast:
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/build
-.PHONY : webparser/fast
+mpi_webparser/fast:
+	$(MAKE) -f CMakeFiles/mpi_webparser.dir/build.make CMakeFiles/mpi_webparser.dir/build
+.PHONY : mpi_webparser/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -555,89 +542,32 @@ error_tests/fast:
 	$(MAKE) -f cpr/test/CMakeFiles/error_tests.dir/build.make cpr/test/CMakeFiles/error_tests.dir/build
 .PHONY : error_tests/fast
 
-main.o: main.cpp.o
+main_mpi.o: main_mpi.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/parallel_webparser.dir/build.make CMakeFiles/parallel_webparser.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/parallel_webparser.dir/build.make CMakeFiles/parallel_webparser.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/parallel_webparser.dir/build.make CMakeFiles/parallel_webparser.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-main_seq.o: main_seq.cpp.o
-
-.PHONY : main_seq.o
+.PHONY : main_mpi.o
 
 # target to build an object file
-main_seq.cpp.o:
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/main_seq.cpp.o
-.PHONY : main_seq.cpp.o
+main_mpi.cpp.o:
+	$(MAKE) -f CMakeFiles/mpi_webparser.dir/build.make CMakeFiles/mpi_webparser.dir/main_mpi.cpp.o
+.PHONY : main_mpi.cpp.o
 
-main_seq.i: main_seq.cpp.i
+main_mpi.i: main_mpi.cpp.i
 
-.PHONY : main_seq.i
-
-# target to preprocess a source file
-main_seq.cpp.i:
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/main_seq.cpp.i
-.PHONY : main_seq.cpp.i
-
-main_seq.s: main_seq.cpp.s
-
-.PHONY : main_seq.s
-
-# target to generate assembly for a file
-main_seq.cpp.s:
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/main_seq.cpp.s
-.PHONY : main_seq.cpp.s
-
-semaphore.o: semaphore.cpp.o
-
-.PHONY : semaphore.o
-
-# target to build an object file
-semaphore.cpp.o:
-	$(MAKE) -f CMakeFiles/parallel_webparser.dir/build.make CMakeFiles/parallel_webparser.dir/semaphore.cpp.o
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/semaphore.cpp.o
-.PHONY : semaphore.cpp.o
-
-semaphore.i: semaphore.cpp.i
-
-.PHONY : semaphore.i
+.PHONY : main_mpi.i
 
 # target to preprocess a source file
-semaphore.cpp.i:
-	$(MAKE) -f CMakeFiles/parallel_webparser.dir/build.make CMakeFiles/parallel_webparser.dir/semaphore.cpp.i
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/semaphore.cpp.i
-.PHONY : semaphore.cpp.i
+main_mpi.cpp.i:
+	$(MAKE) -f CMakeFiles/mpi_webparser.dir/build.make CMakeFiles/mpi_webparser.dir/main_mpi.cpp.i
+.PHONY : main_mpi.cpp.i
 
-semaphore.s: semaphore.cpp.s
+main_mpi.s: main_mpi.cpp.s
 
-.PHONY : semaphore.s
+.PHONY : main_mpi.s
 
 # target to generate assembly for a file
-semaphore.cpp.s:
-	$(MAKE) -f CMakeFiles/parallel_webparser.dir/build.make CMakeFiles/parallel_webparser.dir/semaphore.cpp.s
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/semaphore.cpp.s
-.PHONY : semaphore.cpp.s
+main_mpi.cpp.s:
+	$(MAKE) -f CMakeFiles/mpi_webparser.dir/build.make CMakeFiles/mpi_webparser.dir/main_mpi.cpp.s
+.PHONY : main_mpi.cpp.s
 
 # Help Target
 help:
@@ -645,16 +575,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/local"
-	@echo "... install"
-	@echo "... list_install_components"
 	@echo "... install/strip"
-	@echo "... parallel_webparser"
-	@echo "... webparser"
-	@echo "... edit_cache"
+	@echo "... install"
 	@echo "... package"
+	@echo "... install/local"
+	@echo "... mpi_webparser"
 	@echo "... package_source"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... list_install_components"
 	@echo "... uninstall"
 	@echo "... html"
 	@echo "... pdf"
@@ -682,15 +611,9 @@ help:
 	@echo "... patch_tests"
 	@echo "... util_tests"
 	@echo "... error_tests"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... main_seq.o"
-	@echo "... main_seq.i"
-	@echo "... main_seq.s"
-	@echo "... semaphore.o"
-	@echo "... semaphore.i"
-	@echo "... semaphore.s"
+	@echo "... main_mpi.o"
+	@echo "... main_mpi.i"
+	@echo "... main_mpi.s"
 .PHONY : help
 
 

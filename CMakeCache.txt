@@ -26,12 +26,36 @@ BUILD_SHARED_LIBS:BOOL=OFF
 //Build the testing tree.
 BUILD_TESTING:BOOL=OFF
 
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=Boost_DIR-NOTFOUND
+
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=/usr/include
+
+//Boost library directory DEBUG
+Boost_LIBRARY_DIR_DEBUG:PATH=/usr/lib/x86_64-linux-gnu
+
+//Boost library directory RELEASE
+Boost_LIBRARY_DIR_RELEASE:PATH=/usr/lib/x86_64-linux-gnu
+
+//Boost mpi library (debug)
+Boost_MPI_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_mpi.so
+
+//Boost mpi library (release)
+Boost_MPI_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_mpi.so
+
+//Boost serialization library (debug)
+Boost_SERIALIZATION_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_serialization.so
+
+//Boost serialization library (release)
+Boost_SERIALIZATION_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_serialization.so
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
-CMAKE_BUILD_TYPE:STRING=Debug
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -383,16 +407,78 @@ GENERATE_COVERAGE:BOOL=OFF
 HTTP_ONLY:BOOL=OFF
 
 //Path to a file.
-JSON_INCLUDE_DIR:PATH=JSON_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-JSON_LIBRARY:FILEPATH=JSON_LIBRARY-NOTFOUND
-
-//Path to a file.
 LIBSSH2_INCLUDE_DIR:PATH=LIBSSH2_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
 LIBSSH2_LIBRARY:FILEPATH=LIBSSH2_LIBRARY-NOTFOUND
+
+//Executable for running MPI programs.
+MPIEXEC_EXECUTABLE:FILEPATH=/usr/bin/mpiexec
+
+//Maximum number of processors available to run MPI applications.
+MPIEXEC_MAX_NUMPROCS:STRING=4
+
+//Flag used by MPI to specify the number of processes for mpiexec;
+// the next option will be the number of processes.
+MPIEXEC_NUMPROC_FLAG:STRING=-n
+
+//These flags will be placed after all flags passed to mpiexec.
+MPIEXEC_POSTFLAGS:STRING=
+
+//These flags will be directly before the executable that is being
+// run by mpiexec.
+MPIEXEC_PREFLAGS:STRING=
+
+//MPI CXX additional include directories
+MPI_CXX_ADDITIONAL_INCLUDE_DIRS:STRING=/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi;/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent;/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include
+
+//MPI compiler for CXX
+MPI_CXX_COMPILER:FILEPATH=/usr/bin/mpicxx
+
+//MPI CXX compilation definitions
+MPI_CXX_COMPILE_DEFINITIONS:STRING=
+
+//MPI CXX compilation options
+MPI_CXX_COMPILE_OPTIONS:STRING=-pthread
+
+//Path to a file.
+MPI_CXX_HEADER_DIR:PATH=/usr/lib/x86_64-linux-gnu/openmpi/include
+
+//MPI CXX libraries to link against
+MPI_CXX_LIB_NAMES:STRING=mpi_cxx;mpi
+
+//MPI CXX linker flags
+MPI_CXX_LINK_FLAGS:STRING=-pthread
+
+//If true, the MPI-2 C++ bindings are disabled using definitions.
+MPI_CXX_SKIP_MPICXX:BOOL=FALSE
+
+//MPI C additional include directories
+MPI_C_ADDITIONAL_INCLUDE_DIRS:STRING=/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi;/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent;/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include
+
+//MPI compiler for C
+MPI_C_COMPILER:FILEPATH=/usr/bin/mpicc
+
+//MPI C compilation definitions
+MPI_C_COMPILE_DEFINITIONS:STRING=
+
+//MPI C compilation options
+MPI_C_COMPILE_OPTIONS:STRING=-pthread
+
+//Path to a file.
+MPI_C_HEADER_DIR:PATH=/usr/lib/x86_64-linux-gnu/openmpi/include
+
+//MPI C libraries to link against
+MPI_C_LIB_NAMES:STRING=mpi
+
+//MPI C linker flags
+MPI_C_LINK_FLAGS:STRING=-pthread
+
+//Location of the mpi library for MPI
+MPI_mpi_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+
+//Location of the mpi_cxx library for MPI
+MPI_mpi_cxx_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so
 
 //Path to a program.
 NROFF:FILEPATH=/usr/bin/nroff
@@ -424,9 +510,6 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 //Path to a file.
 RANDOM_FILE:FILEPATH=/dev/urandom
 
-//The directory containing a CMake configuration file for Thread.
-Thread_DIR:PATH=Thread_DIR-NOTFOUND
-
 //Use Nghttp2 library
 USE_NGHTTP2:BOOL=OFF
 
@@ -447,14 +530,11 @@ ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libz.so
 
-//No help, variable specified on the command line.
-ZORBA_WITH_DEBUGGER:UNINITIALIZED=OFF
-
 //Value Computed by CMake
 cpr_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr
 
 //Dependencies for the target
-cpr_LIB_DEPENDS:STATIC=general;-lcurl;
+cpr_LIB_DEPENDS:STATIC=general;libcurl;
 
 //Value Computed by CMake
 cpr_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr
@@ -463,7 +543,7 @@ cpr_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr
 gtest_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/googletest
 
 //Dependencies for the target
-gtest_LIB_DEPENDS:STATIC=general;-pthread;
+gtest_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Value Computed by CMake
 gtest_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/googletest
@@ -482,10 +562,10 @@ gtest_disable_pthreads:BOOL=OFF
 gtest_force_shared_crt:BOOL=OFF
 
 //Dependencies for the target
-gtest_main_LIB_DEPENDS:STATIC=general;-pthread;general;gtest;
+gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Dependencies for the target
-libcurl_LIB_DEPENDS:STATIC=general;dl;general;-pthread;general;/usr/lib/x86_64-linux-gnu/libssl.so;general;/usr/lib/x86_64-linux-gnu/libcrypto.so;general;/usr/lib/x86_64-linux-gnu/libz.so;
+libcurl_LIB_DEPENDS:STATIC=general;dl;general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libssl.so;general;/usr/lib/x86_64-linux-gnu/libcrypto.so;general;/usr/lib/x86_64-linux-gnu/libz.so;
 
 //Value Computed by CMake
 mongoose_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/mongoose
@@ -500,7 +580,7 @@ mongoose_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser/cpr/opt/mongoose
 nlohmann_json_DIR:PATH=/usr/local/lib/cmake/nlohmann_json
 
 //Dependencies for the target
-test_server_LIB_DEPENDS:STATIC=general;mongoose;general;-pthread;
+test_server_LIB_DEPENDS:STATIC=general;mongoose;general;-lpthread;
 
 //Value Computed by CMake
 webparser_BINARY_DIR:STATIC=/home/rmolines/github/C-Web-Parser
@@ -513,6 +593,22 @@ webparser_SOURCE_DIR:STATIC=/home/rmolines/github/C-Web-Parser
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_INCLUDE_DIR
+Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LIBRARY_DIR_DEBUG
+Boost_LIBRARY_DIR_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LIBRARY_DIR_RELEASE
+Boost_LIBRARY_DIR_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_MPI_LIBRARY_DEBUG
+Boost_MPI_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_MPI_LIBRARY_RELEASE
+Boost_MPI_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SERIALIZATION_LIBRARY_DEBUG
+Boost_SERIALIZATION_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SERIALIZATION_LIBRARY_RELEASE
+Boost_SERIALIZATION_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -753,12 +849,16 @@ CURL_SIZEOF_CURL_SOCKLEN_T:INTERNAL=4
 ENABLE_IPV6-ADVANCED:INTERNAL=1
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[-lcurl][/usr/include/x86_64-linux-gnu][v7.58.0()]
+//Details about finding MPI
+FIND_PACKAGE_MESSAGE_DETAILS_MPI:INTERNAL=[TRUE][TRUE][c ][v3.1()]
+//Details about finding MPI_C
+FIND_PACKAGE_MESSAGE_DETAILS_MPI_C:INTERNAL=[/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so][mpi][/usr/lib/x86_64-linux-gnu/openmpi/include][TRUE][v3.1()]
+//Details about finding MPI_CXX
+FIND_PACKAGE_MESSAGE_DETAILS_MPI_CXX:INTERNAL=[/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so][/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so][mpi_cxx;mpi][/usr/lib/x86_64-linux-gnu/openmpi/include][TRUE][v3.1()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][v1.1.0g()]
 //Details about finding Perl
 FIND_PACKAGE_MESSAGE_DETAILS_Perl:INTERNAL=[/usr/bin/perl][v5.26.1()]
-//Details about finding PkgConfig
-FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.15()]
 //Details about finding Threads
@@ -1177,40 +1277,6 @@ HAVE_X509_H:INTERNAL=
 HAVE__STRTOI64:INTERNAL=
 //ADVANCED property for variable: HTTP_ONLY
 HTTP_ONLY-ADVANCED:INTERNAL=1
-JSONCPP_CFLAGS:INTERNAL=-I/usr/local/include
-JSONCPP_CFLAGS_I:INTERNAL=
-JSONCPP_CFLAGS_OTHER:INTERNAL=
-JSONCPP_FOUND:INTERNAL=1
-JSONCPP_INCLUDEDIR:INTERNAL=/usr/local/include
-JSONCPP_INCLUDE_DIRS:INTERNAL=/usr/local/include
-JSONCPP_LDFLAGS:INTERNAL=-L/usr/local/lib/x86_64-linux-gnu;-ljsoncpp
-JSONCPP_LDFLAGS_OTHER:INTERNAL=
-JSONCPP_LIBDIR:INTERNAL=/usr/local/lib/x86_64-linux-gnu
-JSONCPP_LIBRARIES:INTERNAL=jsoncpp
-JSONCPP_LIBRARY_DIRS:INTERNAL=/usr/local/lib/x86_64-linux-gnu
-JSONCPP_LIBS:INTERNAL=
-JSONCPP_LIBS_L:INTERNAL=
-JSONCPP_LIBS_OTHER:INTERNAL=
-JSONCPP_LIBS_PATHS:INTERNAL=
-JSONCPP_PREFIX:INTERNAL=/usr/local
-JSONCPP_STATIC_CFLAGS:INTERNAL=-I/usr/local/include
-JSONCPP_STATIC_CFLAGS_I:INTERNAL=
-JSONCPP_STATIC_CFLAGS_OTHER:INTERNAL=
-JSONCPP_STATIC_INCLUDE_DIRS:INTERNAL=/usr/local/include
-JSONCPP_STATIC_LDFLAGS:INTERNAL=-L/usr/local/lib/x86_64-linux-gnu;-ljsoncpp
-JSONCPP_STATIC_LDFLAGS_OTHER:INTERNAL=
-JSONCPP_STATIC_LIBDIR:INTERNAL=
-JSONCPP_STATIC_LIBRARIES:INTERNAL=jsoncpp
-JSONCPP_STATIC_LIBRARY_DIRS:INTERNAL=/usr/local/lib/x86_64-linux-gnu
-JSONCPP_STATIC_LIBS:INTERNAL=
-JSONCPP_STATIC_LIBS_L:INTERNAL=
-JSONCPP_STATIC_LIBS_OTHER:INTERNAL=
-JSONCPP_STATIC_LIBS_PATHS:INTERNAL=
-JSONCPP_VERSION:INTERNAL=1.8.4
-JSONCPP_jsoncpp_INCLUDEDIR:INTERNAL=
-JSONCPP_jsoncpp_LIBDIR:INTERNAL=
-JSONCPP_jsoncpp_PREFIX:INTERNAL=
-JSONCPP_jsoncpp_VERSION:INTERNAL=
 //ADVANCED property for variable: LIBSSH2_INCLUDE_DIR
 LIBSSH2_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LIBSSH2_LIBRARY
@@ -1221,6 +1287,56 @@ MONGOOSE_FOUND:INTERNAL=TRUE
 MONGOOSE_INCLUDE_DIRS:INTERNAL=/home/rmolines/github/C-Web-Parser/cpr/opt/mongoose
 //Location of libmongoose
 MONGOOSE_LIBRARIES:INTERNAL=mongoose
+//ADVANCED property for variable: MPIEXEC_EXECUTABLE
+MPIEXEC_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPIEXEC_MAX_NUMPROCS
+MPIEXEC_MAX_NUMPROCS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPIEXEC_NUMPROC_FLAG
+MPIEXEC_NUMPROC_FLAG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPIEXEC_POSTFLAGS
+MPIEXEC_POSTFLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPIEXEC_PREFLAGS
+MPIEXEC_PREFLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_CXX_ADDITIONAL_INCLUDE_DIRS
+MPI_CXX_ADDITIONAL_INCLUDE_DIRS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_CXX_COMPILER
+MPI_CXX_COMPILER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_CXX_COMPILE_DEFINITIONS
+MPI_CXX_COMPILE_DEFINITIONS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_CXX_COMPILE_OPTIONS
+MPI_CXX_COMPILE_OPTIONS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_CXX_HEADER_DIR
+MPI_CXX_HEADER_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_CXX_LIB_NAMES
+MPI_CXX_LIB_NAMES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_CXX_LINK_FLAGS
+MPI_CXX_LINK_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_CXX_SKIP_MPICXX
+MPI_CXX_SKIP_MPICXX-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_C_ADDITIONAL_INCLUDE_DIRS
+MPI_C_ADDITIONAL_INCLUDE_DIRS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_C_COMPILER
+MPI_C_COMPILER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_C_COMPILE_DEFINITIONS
+MPI_C_COMPILE_DEFINITIONS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_C_COMPILE_OPTIONS
+MPI_C_COMPILE_OPTIONS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_C_HEADER_DIR
+MPI_C_HEADER_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_C_LIB_NAMES
+MPI_C_LIB_NAMES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_C_LINK_FLAGS
+MPI_C_LINK_FLAGS-ADVANCED:INTERNAL=1
+//Result of TRY_COMPILE
+MPI_RESULT_CXX_test_mpi_MPICXX:INTERNAL=TRUE
+//Result of TRY_COMPILE
+MPI_RESULT_CXX_test_mpi_normal:INTERNAL=TRUE
+//Result of TRY_COMPILE
+MPI_RESULT_C_test_mpi_normal:INTERNAL=TRUE
+//ADVANCED property for variable: MPI_mpi_LIBRARY
+MPI_mpi_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MPI_mpi_cxx_LIBRARY
+MPI_mpi_cxx_LIBRARY-ADVANCED:INTERNAL=1
 //Have library c
 NOT_NEED_LIBNSL:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
@@ -1333,8 +1449,6 @@ SIZEOF_TIME_T:INTERNAL=8
 SIZEOF___INT64:INTERNAL=
 //Curl test 
 STDC_HEADERS:INTERNAL=1
-//Result of TRY_COMPILE
-THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE
 //Curl test 
 TIME_WITH_SYS_TIME:INTERNAL=1
 //Test USE_UNIX_SOCKETS
@@ -1345,6 +1459,18 @@ ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
 ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//Components requested for this build tree.
+_Boost_COMPONENTS_SEARCHED:INTERNAL=mpi;serialization
+//Last used Boost_INCLUDE_DIR value.
+_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
+//Last used Boost_LIBRARY_DIR_DEBUG value.
+_Boost_LIBRARY_DIR_DEBUG_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
+//Last used Boost_LIBRARY_DIR_RELEASE value.
+_Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
+//Last used Boost_NAMESPACE value.
+_Boost_NAMESPACE_LAST:INTERNAL=boost
+//Last used Boost_USE_MULTITHREADED value.
+_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 _OPENSSL_CFLAGS:INTERNAL=
 _OPENSSL_CFLAGS_I:INTERNAL=
 _OPENSSL_CFLAGS_OTHER:INTERNAL=
@@ -1379,9 +1505,7 @@ _OPENSSL_openssl_INCLUDEDIR:INTERNAL=
 _OPENSSL_openssl_LIBDIR:INTERNAL=
 _OPENSSL_openssl_PREFIX:INTERNAL=
 _OPENSSL_openssl_VERSION:INTERNAL=
-__pkg_config_arguments_JSONCPP:INTERNAL=jsoncpp
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
-__pkg_config_checked_JSONCPP:INTERNAL=1
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //Arguments for recv
 curl_cv_func_recv_args:INTERNAL=int,void *,size_t,int,ssize_t
@@ -1395,5 +1519,5 @@ curl_cv_func_send_test:INTERNAL=1
 curl_cv_recv:INTERNAL=1
 //Test curl_cv_send
 curl_cv_send:INTERNAL=1
-prefix_result:INTERNAL=/usr/local/lib/x86_64-linux-gnu
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

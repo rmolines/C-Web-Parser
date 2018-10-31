@@ -8,22 +8,21 @@
 #include "json.hpp"
 #include <chrono>
 #include <fstream> 
-typedef std::chrono::high_resolution_clock Time;
+#include <boost/mpi.hpp>
+#include <boost/serialization/vector.hpp>
+#include <boost/serialization/string.hpp>
+
 
 
 // for convenience
 using json = nlohmann::json;
 using namespace std;
-bool found = false;
 string URL = "https://www.kabum.com.br/computadores/computador-gamer";
-bool found_next;
-auto r = cpr::Get(cpr::Url{URL});
 
-int counter = 0;
-vector<string> url_list, product_names, product_descriptions, \
-              pic_urls, view_prices, financed_priced, product_categories, next_urls, all_urls;
-            
-vector<json> product_infos;
+namespace mpi = boost::mpi;
+boost::mpi::environment env;
+boost::mpi::communicator world;
+
 
 static void search_for_links(GumboNode* node, vector<string> &url_list) {
   if (node->type != GUMBO_NODE_ELEMENT) {
@@ -89,7 +88,8 @@ static void find_urls(GumboNode* node, string &next_url, bool &found_next, vecto
 	}
 }
 
-static json find_product_infos(GumboNode* node, json j){
+static void find_product_infos(GumboNode* node, bool &found, string &name, string &description, string &pic_url,\
+             string &price, string &f_price){
 	if (node->type == GUMBO_NODE_ELEMENT)
 	{
     GumboAttribute *vAttribute;
@@ -98,13 +98,11 @@ static json find_product_infos(GumboNode* node, json j){
 		if (node->v.element.tag == GUMBO_TAG_H1){
       if (vAttribute = gumbo_get_attribute(&node->v.element.attributes, "itemprop")){
         if (strcmp(vAttribute->value, "name") == 0){
-          // product_names.push_back(vAttribute->value);
           
           GumboNode* title_text = static_cast<GumboNode *>(node->v.element.children.data[0]);
           if (title_text->type == GUMBO_NODE_TEXT)
           {
-            j["name"] = title_text->v.text.text;
-            product_names.push_back(title_text->v.text.text);
+            name = title_text->v.text.text;
           }
         }
       }
@@ -118,8 +116,7 @@ static json find_product_infos(GumboNode* node, json j){
           GumboNode* title_text = static_cast<GumboNode *>(node->v.element.children.data[0]);
           if (title_text->type == GUMBO_NODE_TEXT)
           {
-            j["description"] = title_text->v.text.text;
-            product_descriptions.push_back(title_text->v.text.text);
+            description = title_text->v.text.text;
           }
         }
       }
@@ -133,9 +130,7 @@ static json find_product_infos(GumboNode* node, json j){
           GumboNode* title_text = static_cast<GumboNode *>(node->v.element.children.data[0]);
           if (title_text->type == GUMBO_NODE_TEXT)
           {
-            j["f_price"] = title_text->v.text.text;
-
-            financed_priced.push_back(title_text->v.text.text);
+           f_price = title_text->v.text.text;
           }
         }
       }
@@ -155,9 +150,7 @@ static json find_product_infos(GumboNode* node, json j){
                 GumboNode* title_text = static_cast<GumboNode *>(node->v.element.children.data[0]);
                 if (title_text->type == GUMBO_NODE_TEXT)
                 {
-                  j["price"] = title_text->v.text.text;
-
-                  view_prices.push_back(title_text->v.text.text);
+                  price = title_text->v.text.text;
                 }
               }                      
             }
@@ -169,12 +162,11 @@ static json find_product_infos(GumboNode* node, json j){
     //PIC URL
 		else if (node->v.element.tag == GUMBO_TAG_IMG){
       if (vAttribute = gumbo_get_attribute(&node->v.element.attributes, "itemprop")){
-        // cout << vAttribute->value << endl;
         if (strcmp(vAttribute->value, "image") == 0){
           GumboAttribute* url = gumbo_get_attribute(&node->v.element.attributes, "src");
           string url_value = url->value;
           if (!found){
-            j["pic_url"] = url_value;
+            pic_url = url_value;
             
             found = true;
           }
@@ -185,124 +177,102 @@ static json find_product_infos(GumboNode* node, json j){
 
     GumboVector* children = &node->v.element.children;
     for (unsigned int i = 0; i < children->length; ++i) {
-      j = find_product_infos(static_cast<GumboNode*>(children->data[i]), j);
+      find_product_infos(static_cast<GumboNode*>(children->data[i]), found, name, description, pic_url, \
+              price, f_price);
     }
   }
-  return j;
 }
 
-static void find_next_page(GumboNode* node){
-	if (node->type == GUMBO_NODE_ELEMENT)
-	{
-    GumboAttribute *vAttribute;
-		if (node->v.element.tag == GUMBO_TAG_A && 
-        (vAttribute = gumbo_get_attribute(&node->v.element.attributes, "target"))) {
-        if (strcmp(vAttribute->value, "_top") == 0){
-          
-          GumboNode* title_text = static_cast<GumboNode *>(node->v.element.children.data[0]);
-          if (title_text->type == GUMBO_NODE_TEXT)
-          {
-            if (strcmp(title_text->v.text.text, "Proxima > ") == 0){
-              vAttribute = gumbo_get_attribute(&node->v.element.attributes, "href");
-              if (!found_next){
-                next_urls.push_back(vAttribute->value);
-                found_next = true;
-              }
-            }
-          }
-        }
-		}
-
-		GumboVector* children = &node->v.element.children;
-
-		for (unsigned int i = 0; i < children->length; ++i)
-		{
-			find_next_page(static_cast<GumboNode*>(children->data[i]));
-		}
-	}
-
-}
-
-static void find_all_pages(){
-  GumboOutput *output = gumbo_parse(r.text.c_str());
-
-  string next_url;
-  while(!found_next){
-  }
-  gumbo_destroy_output(&kGumboDefaultOptions, output);
-
-  cout << "done with next page\n";
-}
 
 static void create_jsons(){
-  float ttd=0.0f, tta=0.0f; //tempo total download, tempo total analise
 
-  Time::time_point t1 = Time::now();    
-  GumboOutput *output = gumbo_parse(r.text.c_str());
-  Time::time_point t2 = Time::now();    
-  tta += std::chrono::duration_cast<std::chrono::duration<double>> (t2-t1).count();
 
-  auto pos = URL.find_last_of('/');
-  string category = URL.substr(pos+1);
-  string next_url;
-  all_urls.push_back(URL);
-  
-  while (!found_next){
     
-    t1 = Time::now();    
-    auto r = cpr::Get(cpr::Url{all_urls[all_urls.size()-1]});
-    t2 = Time::now();    
-    ttd += std::chrono::duration_cast<std::chrono::duration<double>> (t2-t1).count();
+  if (world.rank() == 0){
+    vector<vector<string>> prod_urls;
+    bool found_next = true;
+    vector<string> url_list;
+    string next_url = URL;
+    GumboOutput *output;
+    int n_prods = 0;
+    int planet;
+    vector<int> prods_per_process;
 
-    output = gumbo_parse(r.text.c_str());   
-    find_urls(output->root); 
-    for (int i=0; i<url_list.size(); i++){
-      product_categories.push_back(category);
+    auto r = cpr::Get(cpr::Url{next_url});
 
-      t1 = Time::now();    
-      auto r = cpr::Get(cpr::Url{url_list[i]});
-      t2 = Time::now();    
-      ttd += std::chrono::duration_cast<std::chrono::duration<double>> (t2-t1).count();
+    output = gumbo_parse(r.text.c_str());
 
-      t1 = Time::now();    
-      GumboOutput *output = gumbo_parse(r.text.c_str());
-      json product;
-      product = find_product_infos(output->root, product); 
-      cout << product << endl; 
-      t2 = Time::now();    
-      tta += std::chrono::duration_cast<std::chrono::duration<double>> (t2-t1).count();  
-      
-      cout << i << endl;
-      found = false;
-      // cout << '.';
-      cout.flush();
+    auto pos = URL.find_last_of('/');
+    string category = URL.substr(pos+1);
+  
+    for (int i=1; i<world.size(); i++){
+      prods_per_process.push_back(0);
     }
-    url_list.clear();
 
+    while(found_next){
+      auto r = cpr::Get(cpr::Url{next_url});
+      output = gumbo_parse(r.text.c_str());   
+      find_urls(output->root, next_url, found_next, url_list); 
 
-    find_next_page(output->root);
-    if (found_next){
-      found_next = false;
-      next_url = URL+next_urls[next_urls.size()-1];
-      all_urls.push_back(next_url);
-      
-      t1 = Time::now();    
-      auto r2 = cpr::Get(cpr::Url{next_url});
-      t2 = Time::now();    
-      ttd += std::chrono::duration_cast<std::chrono::duration<double>> (t2-t1).count();
+      planet = 1;
 
-      t1 = Time::now();    
-      output = gumbo_parse(r2.text.c_str());
-      t2 = Time::now();    
-      tta += std::chrono::duration_cast<std::chrono::duration<double>> (t2-t1).count();
-    } else {
-      found_next = true;
+      for (int i=0; i<url_list.size(); i++){
+        world.send(planet, 0, url_list[i]);
+        prods_per_process[planet]++;
+        if (planet++ >= world.size()){
+          planet = 1;
+        }
+        n_prods++;
+      }
+      next_url = URL + next_url;
+      url_list.clear();
     }
+
+    cout << "Numero de produtos: " << n_prods << endl;
+    vector<string> infos;
+    for (int i=0; i<prods_per_process.size(); i++){
+      for (int j=0; j<prods_per_process[i]; i++){
+        world.recv(i, 1, infos);
+        for (int k=0; k<infos.size(); k++){
+          cout << "INFOS: " << infos[k] << endl;
+        }
+        infos.clear();
+      }
+    }
+
   }
-  gumbo_destroy_output(&kGumboDefaultOptions, output);
+  else {
 
-  cout << "tta: " << tta << " ttd: " << ttd << endl;
+    string prod_url;
+    GumboOutput *output;
+    while (true){
+      world.recv(0, 0, prod_url);
 
+      if(prod_url.compare("done") == 0){
+        break;
+      }
+      else {
+        string name, description, pic_url, price, f_price;
+        bool found = false;
+        json j;
+        auto r = cpr::Get(cpr::Url{prod_url});
+        output = gumbo_parse(r.text.c_str()); 
+        find_product_infos(output->root, found, name, description, pic_url, price, f_price);
+
+                      
+
+        vector<string> infos;
+        infos.push_back(name);
+        infos.push_back(description);
+        infos.push_back(price);
+
+
+        world.send(0, 1, infos);
+      }
+    }
+    gumbo_destroy_output(&kGumboDefaultOptions, output);
+
+  }
 }
 
 
@@ -310,20 +280,9 @@ int main(int argc, char ** argv)
 {
 
   string temp = argv[1];
-  URL = temp;
+  // URL = temp;
 
-  std::string filename = "./seq_time.txt";
-  std::ofstream myfile;
-  myfile.open (filename);
 
-  Time::time_point t1 = Time::now();    
   create_jsons();
-  Time::time_point t2 = Time::now();    
-  std::chrono::duration<double> timer = std::chrono::duration_cast<std::chrono::duration<double>> (t2-t1);
-  cout << "tt: " << timer.count() << endl;
-  myfile << timer.count() << endl;
-
-  
-  myfile.close();
 
 }

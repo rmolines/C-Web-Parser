@@ -60,76 +60,40 @@ CMAKE_SOURCE_DIR = /home/rmolines/github/C-Web-Parser
 CMAKE_BINARY_DIR = /home/rmolines/github/C-Web-Parser
 
 #=============================================================================
-# Target rules for target CMakeFiles/parallel_webparser.dir
+# Target rules for target CMakeFiles/mpi_webparser.dir
 
 # All Build rule for target.
-CMakeFiles/parallel_webparser.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
-	$(MAKE) -f CMakeFiles/parallel_webparser.dir/build.make CMakeFiles/parallel_webparser.dir/depend
-	$(MAKE) -f CMakeFiles/parallel_webparser.dir/build.make CMakeFiles/parallel_webparser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num= "Built target parallel_webparser"
-.PHONY : CMakeFiles/parallel_webparser.dir/all
+CMakeFiles/mpi_webparser.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
+CMakeFiles/mpi_webparser.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
+	$(MAKE) -f CMakeFiles/mpi_webparser.dir/build.make CMakeFiles/mpi_webparser.dir/depend
+	$(MAKE) -f CMakeFiles/mpi_webparser.dir/build.make CMakeFiles/mpi_webparser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num= "Built target mpi_webparser"
+.PHONY : CMakeFiles/mpi_webparser.dir/all
 
 # Include target in all.
-all: CMakeFiles/parallel_webparser.dir/all
+all: CMakeFiles/mpi_webparser.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/parallel_webparser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/parallel_webparser.dir/all
+CMakeFiles/mpi_webparser.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 16
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mpi_webparser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
-.PHONY : CMakeFiles/parallel_webparser.dir/rule
+.PHONY : CMakeFiles/mpi_webparser.dir/rule
 
 # Convenience name for target.
-parallel_webparser: CMakeFiles/parallel_webparser.dir/rule
+mpi_webparser: CMakeFiles/mpi_webparser.dir/rule
 
-.PHONY : parallel_webparser
-
-# clean rule for target.
-CMakeFiles/parallel_webparser.dir/clean:
-	$(MAKE) -f CMakeFiles/parallel_webparser.dir/build.make CMakeFiles/parallel_webparser.dir/clean
-.PHONY : CMakeFiles/parallel_webparser.dir/clean
+.PHONY : mpi_webparser
 
 # clean rule for target.
-clean: CMakeFiles/parallel_webparser.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/webparser.dir
-
-# All Build rule for target.
-CMakeFiles/webparser.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/depend
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=100 "Built target webparser"
-.PHONY : CMakeFiles/webparser.dir/all
-
-# Include target in all.
-all: CMakeFiles/webparser.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/webparser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/webparser.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
-.PHONY : CMakeFiles/webparser.dir/rule
-
-# Convenience name for target.
-webparser: CMakeFiles/webparser.dir/rule
-
-.PHONY : webparser
+CMakeFiles/mpi_webparser.dir/clean:
+	$(MAKE) -f CMakeFiles/mpi_webparser.dir/build.make CMakeFiles/mpi_webparser.dir/clean
+.PHONY : CMakeFiles/mpi_webparser.dir/clean
 
 # clean rule for target.
-CMakeFiles/webparser.dir/clean:
-	$(MAKE) -f CMakeFiles/webparser.dir/build.make CMakeFiles/webparser.dir/clean
-.PHONY : CMakeFiles/webparser.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/webparser.dir/clean
+clean: CMakeFiles/mpi_webparser.dir/clean
 
 .PHONY : clean
 
@@ -315,12 +279,12 @@ clean: cpr/opt/curl/docs/libcurl/CMakeFiles/html.dir/clean
 cpr/opt/curl/docs/libcurl/CMakeFiles/pdf.dir/all: cpr/opt/curl/docs/libcurl/opts/CMakeFiles/opts-pdf.dir/all
 	$(MAKE) -f cpr/opt/curl/docs/libcurl/CMakeFiles/pdf.dir/build.make cpr/opt/curl/docs/libcurl/CMakeFiles/pdf.dir/depend
 	$(MAKE) -f cpr/opt/curl/docs/libcurl/CMakeFiles/pdf.dir/build.make cpr/opt/curl/docs/libcurl/CMakeFiles/pdf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=91,92,93,94,95,96,97,98 "Built target pdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=92,93,94,95,96,97,98 "Built target pdf"
 .PHONY : cpr/opt/curl/docs/libcurl/CMakeFiles/pdf.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/opt/curl/docs/libcurl/CMakeFiles/pdf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 40
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/opt/curl/docs/libcurl/CMakeFiles/pdf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/opt/curl/docs/libcurl/CMakeFiles/pdf.dir/rule
@@ -498,7 +462,7 @@ cpr/opt/curl/lib/preinstall:
 cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all:
 	$(MAKE) -f cpr/opt/curl/lib/CMakeFiles/libcurl.dir/build.make cpr/opt/curl/lib/CMakeFiles/libcurl.dir/depend
 	$(MAKE) -f cpr/opt/curl/lib/CMakeFiles/libcurl.dir/build.make cpr/opt/curl/lib/CMakeFiles/libcurl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target libcurl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target libcurl"
 .PHONY : cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 
 # Include target in all.
@@ -508,7 +472,7 @@ all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/opt/curl/lib/CMakeFiles/libcurl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/opt/curl/lib/CMakeFiles/libcurl.dir/rule
@@ -555,7 +519,7 @@ cpr/opt/googletest/preinstall:
 cpr/opt/googletest/CMakeFiles/gtest_main.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f cpr/opt/googletest/CMakeFiles/gtest_main.dir/build.make cpr/opt/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f cpr/opt/googletest/CMakeFiles/gtest_main.dir/build.make cpr/opt/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=3 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num= "Built target gtest_main"
 .PHONY : cpr/opt/googletest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -592,7 +556,7 @@ clean: cpr/opt/googletest/CMakeFiles/gtest_main.dir/clean
 cpr/opt/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f cpr/opt/googletest/CMakeFiles/gtest.dir/build.make cpr/opt/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f cpr/opt/googletest/CMakeFiles/gtest.dir/build.make cpr/opt/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num= "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=3 "Built target gtest"
 .PHONY : cpr/opt/googletest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -602,7 +566,7 @@ all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/opt/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/opt/googletest/CMakeFiles/gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/opt/googletest/CMakeFiles/gtest.dir/rule
@@ -647,7 +611,7 @@ cpr/opt/mongoose/preinstall:
 cpr/opt/mongoose/CMakeFiles/mongoose.dir/all:
 	$(MAKE) -f cpr/opt/mongoose/CMakeFiles/mongoose.dir/build.make cpr/opt/mongoose/CMakeFiles/mongoose.dir/depend
 	$(MAKE) -f cpr/opt/mongoose/CMakeFiles/mongoose.dir/build.make cpr/opt/mongoose/CMakeFiles/mongoose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=24 "Built target mongoose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num= "Built target mongoose"
 .PHONY : cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 
 # Include target in all.
@@ -657,7 +621,7 @@ all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/opt/mongoose/CMakeFiles/mongoose.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/opt/mongoose/CMakeFiles/mongoose.dir/rule
@@ -699,7 +663,7 @@ cpr/cpr/preinstall:
 # Target rules for target cpr/cpr/CMakeFiles/cpr.dir
 
 # All Build rule for target.
-cpr/cpr/CMakeFiles/cpr.dir/all:
+cpr/cpr/CMakeFiles/cpr.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 	$(MAKE) -f cpr/cpr/CMakeFiles/cpr.dir/build.make cpr/cpr/CMakeFiles/cpr.dir/depend
 	$(MAKE) -f cpr/cpr/CMakeFiles/cpr.dir/build.make cpr/cpr/CMakeFiles/cpr.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=1,2 "Built target cpr"
@@ -712,7 +676,7 @@ all: cpr/cpr/CMakeFiles/cpr.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/cpr/CMakeFiles/cpr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/cpr/CMakeFiles/cpr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/cpr/CMakeFiles/cpr.dir/rule
@@ -784,6 +748,7 @@ cpr/test/preinstall:
 # Target rules for target cpr/test/CMakeFiles/proxy_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/proxy_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/proxy_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/proxy_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/proxy_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -800,7 +765,7 @@ all: cpr/test/CMakeFiles/proxy_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/proxy_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/proxy_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/proxy_tests.dir/rule
@@ -824,6 +789,7 @@ clean: cpr/test/CMakeFiles/proxy_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/get_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/get_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/get_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/get_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/get_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -840,7 +806,7 @@ all: cpr/test/CMakeFiles/get_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/get_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/get_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/get_tests.dir/rule
@@ -864,6 +830,7 @@ clean: cpr/test/CMakeFiles/get_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/async_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/async_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/async_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/async_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/async_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -880,7 +847,7 @@ all: cpr/test/CMakeFiles/async_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/async_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/async_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/async_tests.dir/rule
@@ -904,6 +871,7 @@ clean: cpr/test/CMakeFiles/async_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/alternating_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/alternating_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/alternating_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/alternating_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/alternating_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -920,7 +888,7 @@ all: cpr/test/CMakeFiles/alternating_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/alternating_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/alternating_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/alternating_tests.dir/rule
@@ -957,7 +925,7 @@ all: cpr/test/CMakeFiles/test_server.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/test_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/test_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/test_server.dir/rule
@@ -981,6 +949,7 @@ clean: cpr/test/CMakeFiles/test_server.dir/clean
 # Target rules for target cpr/test/CMakeFiles/head_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/head_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/head_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/head_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/head_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -997,7 +966,7 @@ all: cpr/test/CMakeFiles/head_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/head_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/head_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/head_tests.dir/rule
@@ -1021,6 +990,7 @@ clean: cpr/test/CMakeFiles/head_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/post_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/post_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/post_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/post_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/post_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -1037,7 +1007,7 @@ all: cpr/test/CMakeFiles/post_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/post_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/post_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/post_tests.dir/rule
@@ -1061,6 +1031,7 @@ clean: cpr/test/CMakeFiles/post_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/session_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/session_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/session_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/session_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/session_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -1077,7 +1048,7 @@ all: cpr/test/CMakeFiles/session_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/session_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/session_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/session_tests.dir/rule
@@ -1101,13 +1072,14 @@ clean: cpr/test/CMakeFiles/session_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/put_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/put_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/put_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/put_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/put_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
 cpr/test/CMakeFiles/put_tests.dir/all: cpr/test/CMakeFiles/test_server.dir/all
 	$(MAKE) -f cpr/test/CMakeFiles/put_tests.dir/build.make cpr/test/CMakeFiles/put_tests.dir/depend
 	$(MAKE) -f cpr/test/CMakeFiles/put_tests.dir/build.make cpr/test/CMakeFiles/put_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num= "Built target put_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=99 "Built target put_tests"
 .PHONY : cpr/test/CMakeFiles/put_tests.dir/all
 
 # Include target in all.
@@ -1117,7 +1089,7 @@ all: cpr/test/CMakeFiles/put_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/put_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/put_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/put_tests.dir/rule
@@ -1141,6 +1113,7 @@ clean: cpr/test/CMakeFiles/put_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/delete_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/delete_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/delete_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/delete_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/delete_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -1157,7 +1130,7 @@ all: cpr/test/CMakeFiles/delete_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/delete_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/delete_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/delete_tests.dir/rule
@@ -1181,6 +1154,7 @@ clean: cpr/test/CMakeFiles/delete_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/callback_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/callback_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/callback_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/callback_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/callback_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -1197,7 +1171,7 @@ all: cpr/test/CMakeFiles/callback_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/callback_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/callback_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/callback_tests.dir/rule
@@ -1221,13 +1195,14 @@ clean: cpr/test/CMakeFiles/callback_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/raw_body_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/raw_body_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/raw_body_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/raw_body_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/raw_body_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
 cpr/test/CMakeFiles/raw_body_tests.dir/all: cpr/test/CMakeFiles/test_server.dir/all
 	$(MAKE) -f cpr/test/CMakeFiles/raw_body_tests.dir/build.make cpr/test/CMakeFiles/raw_body_tests.dir/depend
 	$(MAKE) -f cpr/test/CMakeFiles/raw_body_tests.dir/build.make cpr/test/CMakeFiles/raw_body_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=99 "Built target raw_body_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num= "Built target raw_body_tests"
 .PHONY : cpr/test/CMakeFiles/raw_body_tests.dir/all
 
 # Include target in all.
@@ -1237,7 +1212,7 @@ all: cpr/test/CMakeFiles/raw_body_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/raw_body_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/raw_body_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/raw_body_tests.dir/rule
@@ -1261,6 +1236,7 @@ clean: cpr/test/CMakeFiles/raw_body_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/options_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/options_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/options_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/options_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/options_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -1277,7 +1253,7 @@ all: cpr/test/CMakeFiles/options_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/options_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/options_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/options_tests.dir/rule
@@ -1301,13 +1277,14 @@ clean: cpr/test/CMakeFiles/options_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/patch_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/patch_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/patch_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/patch_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/patch_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
 cpr/test/CMakeFiles/patch_tests.dir/all: cpr/test/CMakeFiles/test_server.dir/all
 	$(MAKE) -f cpr/test/CMakeFiles/patch_tests.dir/build.make cpr/test/CMakeFiles/patch_tests.dir/depend
 	$(MAKE) -f cpr/test/CMakeFiles/patch_tests.dir/build.make cpr/test/CMakeFiles/patch_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num= "Built target patch_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=91 "Built target patch_tests"
 .PHONY : cpr/test/CMakeFiles/patch_tests.dir/all
 
 # Include target in all.
@@ -1317,7 +1294,7 @@ all: cpr/test/CMakeFiles/patch_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/patch_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/patch_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/patch_tests.dir/rule
@@ -1341,13 +1318,14 @@ clean: cpr/test/CMakeFiles/patch_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/util_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/util_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/util_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/util_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/util_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
 cpr/test/CMakeFiles/util_tests.dir/all: cpr/test/CMakeFiles/test_server.dir/all
 	$(MAKE) -f cpr/test/CMakeFiles/util_tests.dir/build.make cpr/test/CMakeFiles/util_tests.dir/depend
 	$(MAKE) -f cpr/test/CMakeFiles/util_tests.dir/build.make cpr/test/CMakeFiles/util_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num= "Built target util_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmolines/github/C-Web-Parser/CMakeFiles --progress-num=100 "Built target util_tests"
 .PHONY : cpr/test/CMakeFiles/util_tests.dir/all
 
 # Include target in all.
@@ -1357,7 +1335,7 @@ all: cpr/test/CMakeFiles/util_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/util_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/util_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/util_tests.dir/rule
@@ -1381,6 +1359,7 @@ clean: cpr/test/CMakeFiles/util_tests.dir/clean
 # Target rules for target cpr/test/CMakeFiles/error_tests.dir
 
 # All Build rule for target.
+cpr/test/CMakeFiles/error_tests.dir/all: cpr/opt/curl/lib/CMakeFiles/libcurl.dir/all
 cpr/test/CMakeFiles/error_tests.dir/all: cpr/opt/googletest/CMakeFiles/gtest.dir/all
 cpr/test/CMakeFiles/error_tests.dir/all: cpr/opt/mongoose/CMakeFiles/mongoose.dir/all
 cpr/test/CMakeFiles/error_tests.dir/all: cpr/cpr/CMakeFiles/cpr.dir/all
@@ -1397,7 +1376,7 @@ all: cpr/test/CMakeFiles/error_tests.dir/all
 
 # Build rule for subdir invocation for target.
 cpr/test/CMakeFiles/error_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 cpr/test/CMakeFiles/error_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmolines/github/C-Web-Parser/CMakeFiles 0
 .PHONY : cpr/test/CMakeFiles/error_tests.dir/rule
